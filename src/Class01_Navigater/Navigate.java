@@ -1,4 +1,4 @@
-package Class01;
+package Class01_Navigater;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

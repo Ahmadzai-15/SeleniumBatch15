@@ -1,0 +1,65 @@
+
+
+          Selenium Class 1
+
+                What is software testing?
+                -- identify correctness and quality of the application
+
+                How many ways can we actually test?
+                -- manual
+                -- automation
+
+                When do we go for automation?
+                -- after manual testing is passed
+                -- when environment is stable
+                -- analyze our test suite and choose our automation tools
+
+                What other tools do we know for automation?
+                -- Selenium, UFT/QTP, Cucumber, TestNG, Katalon Studio
+
+                Levels of testing?
+                -- Unit test
+                -- Acceptance testing
+                -- System testing
+                -- Integration testing
+
+                Types of Testing?
+                -- Functional testing
+                -- Non- Functional testing
+                    Performance testing
+                    Security testing
+
+                What is Selenium?
+                -- a set of tools which helps us to automate web applications. It is mainly used
+                to perform functional testing.
+
+
+                What is Selenium WebDriver?
+                Open source automation tool which allows us to perform actions on a web application
+                WebDriver is an interface
+
+                Advantages of Selenium WebDriver:
+                -- open source
+                -- works with different programming languages--> Java Ruby, C#, JavaScript, Python
+                -- works with multiple browsers and supports cross browser testing
+                -- OS independent --> iOS, Linux, Windows
+
+                Disadvantages of Selenium WebDriver:
+                -- No technical support
+                -- Cannot test desktop applications
+                -- no built in reports
+                -- cannot test captchas, images, videos
+                -- takes more time to create test cases
+
+                get() vs navigate()
+                -- navigate can move back, forward and refresh
+                -- get() will wait for the page to fully load whereas navigate() will not
+                -- get() will not keep the history of the browser whereas navigate() will
+
+                close() vs quit()
+                -- close() will close the current tab
+                -- quit() will quit the whole browser
+
+                fullscreen() vs maximize()
+                -- maximize() will maximize the browser and you will still be able to see url, tabs, bookmarks
+                    and fullscreen() will maximize the whole web application

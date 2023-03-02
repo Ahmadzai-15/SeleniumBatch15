@@ -1,0 +1,88 @@
+
+
+
+        What is a WebElement?
+                anything we see on the web page is considered to be a webelement
+                e.g. buttons, textboxes, checkboxes, links
+
+                HTML?
+                HyperText Markup Language
+
+                What is DOM?
+                DOM stands for Document Object Model. It is the browser's
+                internal view of the webpage.
+                Also called as Developer's tools, or Dev tools
+                Document --> can be stored any document as pdf, excel
+                Object --> any line in HTML is considered as Object
+                Model --> it is just a layout of the HTML
+
+                Locator
+                is an address or a position of an webelement on the web page
+                is used to locate or identify webelements on the webpage
+
+                8 Locators:
+                - ID
+                - Name
+                - Tagname
+                - xpath
+                - linktext
+                - partialLinkText
+                - CSS Selector
+                - ClassName
+
+                Linktext, partialLintext (they can only be used for <a> and it must also have some Text)
+
+
+                Why do we need many locators?
+                -- some locators might have duplicate values in other nodes
+                -- Developers may not provide all the locators for all the elements
+                -- some locators may not be applicable for the elements we are looking for
+                    e.g. linkText and partialLinkText is only used for Links
+
+
+
+
+                "a" tag is also called an anchor tag, its for the link ...
+                it must have a link and the text .. the text is going to be there almost everytime
+
+
+                if 2 or more elements have same attributes and attribute values, Selenium will only interact with the
+                first element it locates, we try to find elements as uniquely as possible
+
+
+                there are some important things that you should remember while selecting a locator...
+
+                if a attribute value has a number in it , it is better to avoid it and use an alternative locator.!!!!!
+
+                differnce in linkText and partial link Text?
+
+                a parital link text you can use just a part of text, just make sure that it is unqiue enough to stand out .
+
+
+                ----------------------------------------
+                What did we learn today???
+
+                Locators:
+                 locators in selenium help us find the WebElements
+
+                 8 locators
+
+                 id, name, className
+
+
+                 Linktext, partialLintext (they can only be used for <a> and it must also have some Text)
+
+                 TagName (we just need to pass the tagname and it is going find that particular webElement)
+
+
+                DOM--> document object model
+                here we have the whole code for the website
+
+
+
+                Scenario :
+
+                if there are two elements with the same attribute value what will happen?
+
+
+                selenium is going to get the first one it encounters.

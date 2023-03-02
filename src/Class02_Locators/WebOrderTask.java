@@ -1,4 +1,4 @@
-package Class02;
+package Class02_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package Class03;
+package Class01_Navigater;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,10 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class TagName {
-
+public class LunchBrowser {
     public static void main(String[] args) {
-
         System.setProperty("webdriver.chrome.driver","Drivers/chromedriver.exe");
         //create instance of webdriver
         WebDriver driver=new ChromeDriver();
@@ -29,8 +27,5 @@ public class TagName {
             String link=tag.getAttribute("href");
             System.out.println(link);
         }
-
-
-
     }
 }
