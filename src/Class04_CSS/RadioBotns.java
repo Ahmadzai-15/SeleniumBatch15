@@ -14,7 +14,6 @@ public class RadioBotns {
         //goto the Syntaxtechs website
         driver.get("http://practice.syntaxtechs.net/basic-radiobutton-demo.php");
 
-
         //click on the radio button Male
         WebElement maleBtn = driver.findElement(By.cssSelector("input[value='Male']"));
         //check if the radio button is enabled
