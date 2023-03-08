@@ -33,7 +33,7 @@ Note:
 
      					 tagname[attribute *= 'partial attribute value']   where  * means contains here
 
-       CSS has someother amazing features to like
+       CSS has someother amazing features/Functions to like
        					a.starts-with method in css:
        					     tagname[attribute ^= 'starting attribute value'] where ^ means starts with
 
