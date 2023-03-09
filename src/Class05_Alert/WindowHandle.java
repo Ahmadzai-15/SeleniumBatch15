@@ -18,11 +18,16 @@ public class WindowHandle {
         //get the parent window handle of the parent window.
         String parentWindow=driver.getWindowHandle();
         System.out.println(parentWindow);
-
         Set<String> windowHandle=driver.getWindowHandles();
         for (String st:windowHandle){
             System.out.println(st);
+            String title=driver.getTitle();
+            if(title.equalsIgnoreCase("Privacy Policy –Terms")){
+                break;
+            }
         }
+        //To verify we switched to the right windows
+        System.out.println(driver.getTitle());
 
 
 

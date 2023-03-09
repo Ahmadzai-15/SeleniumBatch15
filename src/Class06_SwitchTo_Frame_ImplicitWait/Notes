@@ -1,0 +1,54 @@
+
+
+    Topic: Frames
+
+    Definition: Frames allow developers to divide a web page into multiple,
+     independent sections, each with its own document and window object.
+
+    Usage:
+
+    Frames are typically used when a web page needs to display multiple views,
+     each with its own content, without requiring the entire page to reload.
+     Web developers can use the HTML <iframe> element to create a frame within a web page.
+
+    3 ways to interact with frames:
+
+
+
+    Switching back from a frame:
+    To switch back from a frame to the main page, you can use the following code:
+        driver.switchTo().defaultContent();
+
+
+
+    --------------------------------------------------------------------------------------------
+    Topic: Implicit and Explicit Wait
+
+    Definition:
+
+    Implicit Wait: The Implicit Wait is a setting that applies to the findElement()
+     method of the WebDriver object. It tells the WebDriver to wait for a
+     certain amount of time before throwing an exception if the element is not found.
+
+    Explicit Wait: The Explicit Wait is a way to tell the WebDriver to wait for a certain
+    condition before throwing an exception. It works with the ExpectedConditions class
+    and waits until certain conditions are met or the given time is achieved.
+
+    Usage:
+
+    Implicit Wait: Use the Implicit Wait when you want to set a default wait time for all elements.
+
+    Explicit Wait: Use the Explicit Wait when you want to wait for a specific
+     condition to be true before proceeding. It is especially useful when waiting for elements that load asynchronously.
+
+    Example:
+    Implcit:
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+
+    Explicit:
+
+    Using ExpectedConditions class with Explicit Wait:
+
+    WebDriverWait wait = new WebDriverWait(driver, 10);
+    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("myElementId")));
